@@ -1,0 +1,14 @@
+#wrapper{
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+		background-color: #ffffff;
+	}
+body{
+	background-color: rgba(25, 25, 112, 0.8);
+	font-family: Arial, Geneva, snas-serif;
+	color: rgb(25, 25, 112);
+	}
+.listitem{
+	color: rgba(25, 25, 112, 0.4);
+	}
