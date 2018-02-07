@@ -3,6 +3,7 @@
 		margin-right: auto;
 		width: 80%;
 		background-color: #ffffff;
+		border: 4px inset #000066;
 	}
 body{
 	background-color: rgba(25, 25, 112, 0.8);
