@@ -20,4 +20,9 @@ h1{
 	border-radius: 10px;
 	padding: 5px;
 	text-shadow: 1px 1px 3px;
+	background-color: rgba(211, 211, 211, 0.3);
 }
+h2{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	border-bottom: 2px inset #000066;
+	}
