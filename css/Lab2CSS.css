@@ -12,11 +12,11 @@ body{
 	color: rgb(25, 25, 112);
 	}
 .listitem{
-	color: rgba(25, 25, 112, 0.4);
+	color: rgba(25, 25, 112, 0.7);
 	}
 h1{
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	border: 3px double #000066;
+	border: 6px double #191970;
 	border-radius: 10px;
 	padding: 5px;
 	text-shadow: 1px 1px 3px;
@@ -25,4 +25,8 @@ h1{
 h2{
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	border-bottom: 2px inset #000066;
+	}
+img{
+	border: 2px inset #000066;
+	border-radius: 4px;
 	}
