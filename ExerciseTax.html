@@ -3,13 +3,22 @@
 		<head>
 			<title>Tax Calculator</title>
 			<meta charset="utf-8">
+			<script>
+				function TaxFunction{
+					var UserName = prompt("Enter your name:");
+					var UserIncome = prompt("Enter your income:");
+					var UserTax = (0);
+					if UserIncome<60000{
+						UserTax = (UserIncome*0.0425)
+					}
+					else{
+						UserTax = (UserIncome*0.06)
+					}
+					document.write("Your tax is "+UserTax);
+				}
+			</script>
 		</head>
 		<body>
-			<script>
-				var userName = prompt("Enter your name:");
-				var userIncome = prompt("Enter your income:");
-				var userTax = (userIncome * 0.0425);
-				document.write("Your tax is "+userTax);
-			</script>
+			<button type="button" onclick='TaxFunction()';>Click here to calculate your tax</button>
 		</body>
 	</html>
