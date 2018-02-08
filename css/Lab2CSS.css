@@ -30,3 +30,6 @@ img{
 	border: 2px inset #000066;
 	border-radius: 4px;
 	}
+#list{
+		box-shadow: 3px 3px 4px;
+	}
