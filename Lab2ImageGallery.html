@@ -7,7 +7,13 @@
 			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 			<script>
 				$(document).ready(function(){
-				
+					$('#gallery a').hover(function(){
+						var galleryHref = $(this).attr('href');
+						var galleryAlt = $(this).attr('title');
+						$('figure img').attr({ src: galleryHref, alt: galleryAlt });
+						$('figcaption').html(galleryAlt);
+					});
+				});
 			</script>
 		</head>
 		<body>
