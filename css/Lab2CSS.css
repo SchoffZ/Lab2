@@ -4,12 +4,20 @@
 		width: 80%;
 		background-color: #ffffff;
 		border: 4px inset #000066;
+		padding: 15px;
 	}
 body{
-	background-color: rgba(25, 25, 112, 0.8);
+	background-color: rgba(25, 25, 112, 0.7);
 	font-family: Arial, Geneva, snas-serif;
 	color: rgb(25, 25, 112);
 	}
 .listitem{
 	color: rgba(25, 25, 112, 0.4);
 	}
+h1{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	border: 3px double #000066;
+	border-radius: 10px;
+	padding: 5px;
+	text-shadow: 1px 1px 3px;
+}
